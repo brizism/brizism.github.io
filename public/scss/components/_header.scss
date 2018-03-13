@@ -1,0 +1,24 @@
+#logo {
+  width: 35rem;
+  margin: 0 auto;
+  
+  &:hover circle{
+    fill: $turquoise;
+  }
+
+  &:hover polygon {
+    fill: $violet;
+  }
+
+  &:hover rect {
+    fill: $gold;
+  }
+
+  &:hover .bird {
+    fill: $violet;
+  }
+
+  &:hover .pacman {
+    fill: $baby-blue;
+  }
+}
