@@ -26,6 +26,7 @@ html {
 body {
   background: $light-grey;
   min-height: 100vh;
+  font-family: $font-text-light;
 }
 
 h1 {
@@ -34,6 +35,10 @@ h1 {
 
 p {
   
+}
+
+a {
+  transition: color 0.7s ease 0s;
 }
 
 p::selection {
