@@ -1,28 +1,47 @@
 main {
   h1 {
     font-family: $font-text-light;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    padding-top: 17rem;
+    padding-top: 7rem;
     letter-spacing: 4px;
+    line-height: 1.1;
+
+    @media #{$mq-medium}{
+      font-size: 3rem;
+      padding-top: 17rem;
+    }
   }
 
   .work {
     width: 100%;
-    //background: red;
     display: grid;
-    padding-top: 25rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(11, minmax(18vh, 1fr));
+    padding-top: 10rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, minmax(50vh, 1fr));
+
+    @media #{$mq-medium}{
+      padding-top: 15rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(11, minmax(10vh, 1fr));
+    }
+
+    @media #{$mq-xlarge}{
+      padding-top: 24rem;
+      grid-template-rows: repeat(11, minmax(20vh, 1fr));
+    }
 
     &__item {
       background: gold;
       border: 1px solid black;
       font-size: 20px;
-      grid-row: span 4;
 
-      &:nth-child(1) { grid-row: span 3/5; background: aliceblue;}
-      &:nth-child(4) { grid-row: span 3; background: antiquewhite;}
+      @media #{$mq-medium}{
+        grid-row: span 4;
+
+        &:nth-child(1) { grid-row: span 3/5; background: aliceblue;}
+        &:nth-child(4) { grid-row: span 3; background: antiquewhite;}
+      }
     }
   }
 }
