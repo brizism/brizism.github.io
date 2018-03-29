@@ -1,0 +1,12 @@
+.project {
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+
+  h1 {
+    font-family: $font-text-bold;
+    text-transform: uppercase;
+    padding-top: 10rem;
+  }
+}
