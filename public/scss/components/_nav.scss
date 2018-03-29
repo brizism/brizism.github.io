@@ -1,0 +1,117 @@
+// mixins
+@mixin nav-link {
+  font-size: 3rem;
+  font-family: $font-text-bold;
+  line-height: 2.5rem;
+  color: #e8e4e4;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+
+  @media #{$mq-medium}{
+    font-size: 4rem;
+  }
+
+  @media #{$mq-large}{
+    font-size: 7rem;
+
+    &:hover span{
+      opacity: 1;
+      left: 0;
+    }
+  
+    &:hover span:before {
+      top: 0.4rem;
+    }
+  }  
+}
+
+@mixin nav-span {
+  text-transform: uppercase;
+  position: relative;
+  left: -2rem;
+  bottom: 1.6rem;
+  padding-left: 1.5rem;
+  opacity: 0;
+  display: block;
+  color: $black;
+  font-size: 20px;
+  transition: opacity 0.5s, left 0.5s;
+  z-index: 2;
+}
+
+@mixin nav-span-before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  width: 3rem;
+  height: 1.7rem;
+  transform: translate(-3.8rem, 0) rotate(90deg);
+  transition: top 0.3s linear 0.2s, opacity 0.3s linear 0.2s;
+}
+
+// styles
+.nav {
+  &__link {
+    position: fixed;
+    top: 15rem;
+
+    @media #{$mq-large}{
+      top: 0;
+    }
+
+    &[rel=prev] {
+      @include nav-link;
+
+      @media (max-width: #{$bp-large - 0.0625em}){
+        &:hover {
+          color: $violet;
+        }
+      }
+
+      @media #{$mq-large}{
+        transform: translate(6rem, 46rem) rotate(-90deg);
+        transform-origin: left center;
+      }
+    }
+
+    &[rel=next] {
+      @include nav-link;
+      right: -15.5rem;
+
+      @media (max-width: #{$bp-large - 0.0625em}){
+        &:hover {
+          color: $gold;
+        }
+      }
+
+      @media #{$mq-large}{
+        transform: translate(-6.5rem, 33.4rem) rotate(-90deg);
+      }
+
+      @media #{$mq-medium}{
+        right: -13.5rem;
+      }
+    }
+
+    .next {
+      @include nav-span;
+      
+      &::before {
+        top: -1.4rem;
+        background: url('../img/next-arrow.png') no-repeat;
+        @include nav-span-before;
+      }
+    }
+
+    .prev {
+      @include nav-span;
+    
+      &::before {
+        top: 2rem;
+        background: url('../img/prev-arrow.png') no-repeat;
+        @include nav-span-before;
+      }
+    }
+  }
+}
