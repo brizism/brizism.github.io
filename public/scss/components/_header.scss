@@ -1,7 +1,11 @@
 #logo {
-  width: 28rem;
+  width: 18rem;
   margin: 0 auto;
   padding-top: 2rem;
+
+  @media #{$mq-large}{
+    width: 25rem;
+  }
   
   &:hover circle{
     fill: $turquoise;
