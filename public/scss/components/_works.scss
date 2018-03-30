@@ -28,20 +28,60 @@ main {
 
     @media #{$mq-xlarge}{
       padding-top: 24rem;
-      grid-template-rows: repeat(11, minmax(20vh, 1fr));
+      grid-template-rows: repeat(11, minmax(14vh, 1fr));
     }
 
     &__item {
-      background: gold;
-      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-size: 20px;
+      background: $medium-grey;
+      overflow: hidden;
+      border: 1px solid black;
+
+      @media (max-width: #{$bp-small}){
+        &:nth-child(even) { background: $dark-grey; }
+        &:nth-child(odd) { background: $medium-grey; }
+      }
 
       @media #{$mq-medium}{
         grid-row: span 4;
 
-        &:nth-child(1) { grid-row: span 3/5; background: aliceblue;}
-        &:nth-child(4) { grid-row: span 3; background: antiquewhite;}
+        &:nth-child(1) { grid-row: span 3/5; }
+        &:nth-child(4) { grid-row: span 3; }
+        &:nth-child(2) { background: $dark-grey; }
+        &:nth-child(3) { background: $dark-grey; }
+        &:nth-child(5) { background: $dark-grey; }
+      }
+    }
+
+    &__img {
+      width: 100%;
+      position: relative;
+
+      &--short {
+        top: 7rem;
+
+        @media #{$mq-medium}{
+          top: 6rem;
+        }
+      }
+
+      &--long {
+        top: 6.8rem;
+
+        @media #{$mq-xlarge}{
+          top: 4.6rem;
+        }
+      }
+
+      img {
+        width: 100%;
+        display: block;
       }
     }
   }
 }
+
+
