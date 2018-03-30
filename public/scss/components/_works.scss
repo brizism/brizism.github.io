@@ -14,7 +14,8 @@ main {
   }
 
   .work {
-    width: 100%;
+    width: 99.1%;
+    margin: 0 auto;
     display: grid;
     padding-top: 10rem;
     grid-template-columns: repeat(1, 1fr);
@@ -38,7 +39,8 @@ main {
       font-size: 20px;
       background: $medium-grey;
       overflow: hidden;
-      border: 1px solid black;
+      outline: 2px solid #3f3e3e;
+      z-index: 99;
 
       @media (max-width: #{$bp-small}){
         &:nth-child(even) { background: $dark-grey; }
