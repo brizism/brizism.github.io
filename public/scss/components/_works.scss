@@ -33,6 +33,7 @@ main {
     }
 
     &__item {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -41,6 +42,47 @@ main {
       overflow: hidden;
       outline: 2px solid #3f3e3e;
       z-index: 99;
+
+      * {
+        transition: all .4s cubic-bezier(.77, 0, .175, 1);
+      }
+
+      &:nth-child(1) .overlay-color { background: $violet };
+      &:nth-child(2) .overlay-color { background: $gold };
+      &:nth-child(3) .overlay-color { background: $gold };
+      &:nth-child(4) .overlay-color { background: $violet };
+      &:nth-child(5) .overlay-color { background: $gold };
+      &:nth-child(6) .overlay-color { background: $violet };
+
+      &:hover .overlay-color {
+        height: 100%;
+      }
+
+      &:hover .overlay-color h2 {
+        opacity: 1;
+      }
+
+      .overlay-color {
+        width: 100%;
+        height: 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+
+        h2 {
+          font-size: 4rem;
+          font-family: $font-text-bold;
+          text-align: center;
+          color: white;
+          text-transform: uppercase;
+          letter-spacing: 6px;
+          opacity: 0;
+        }
+      }
 
       @media (max-width: #{$bp-small}){
         &:nth-child(even) { background: $dark-grey; }
@@ -74,7 +116,7 @@ main {
         top: 6.8rem;
 
         @media #{$mq-xlarge}{
-          top: 4.6rem;
+          top: 9.4rem;
         }
       }
 
