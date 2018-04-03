@@ -27,14 +27,18 @@ body {
   background: $light-grey;
   min-height: 100vh;
   font-family: $font-text-light;
+  color: $black;
 }
 
 h1 {
   font-family: $font-text-bold;
+  color: $black;
 }
 
 p {
-  
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: $black;
 }
 
 a {
