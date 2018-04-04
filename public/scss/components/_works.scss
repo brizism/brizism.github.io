@@ -4,8 +4,6 @@ main {
     font-size: 2rem;
     text-align: center;
     padding-top: 7rem;
-    letter-spacing: 4px;
-    line-height: 1.1;
 
     @media #{$mq-medium}{
       font-size: 3rem;
