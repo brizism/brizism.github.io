@@ -1,0 +1,89 @@
+.modal {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: $violet;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  animation: slideIn .4s cubic-bezier(0.61, 1.02, 1, 1);
+
+  &__close {
+    width: 3rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    cursor: pointer;
+
+    @media (max-width: #{$bp-small}){
+      width: 2rem;
+      top: 2.5rem;
+      right: 2.5rem;
+    }
+
+    polygon:hover {
+      fill: white;
+    }
+  }
+
+  &__info {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn .2s;
+
+    @media (max-width: #{$bp-small}){
+      width: 80%;
+      top: 50%;
+    }
+
+    @media #{$mq-medium}{
+      width: 70%;
+    }
+
+    p {
+      font-size: 3rem;
+      text-align: center;
+      color: white;
+
+      @media (max-width: #{$bp-small}){
+        font-size: 2rem;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+    @media (max-width: #{$bp-small}){
+      width: 80%;
+    }
+
+    a {
+      font-size: 2rem;
+      color: $black;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+// Animations
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -800px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
