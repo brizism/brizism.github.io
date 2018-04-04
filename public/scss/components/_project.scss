@@ -1,19 +1,19 @@
 @mixin project-link {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   color: $black;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(180deg, transparent 65%, $violet 0);
-  transition: background-size .25s ease;
-  background-size: 0% 100%;
-
-  &:hover {
-    background-size: 100% 100%;
-    background-image: linear-gradient(180deg, transparent 65%, $violet 0);
-  }
   
   &:nth-child(1){
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, transparent 65%, $violet 0);
+    transition: background-size .25s ease;
+    background-size: 0% 100%;
     border-bottom: 1px solid $violet;
+
+    &:hover {
+      background-size: 100% 100%;
+      background-image: linear-gradient(180deg, transparent 65%, $violet 0);
+    }
   }
 
   &:nth-child(2){
@@ -25,48 +25,112 @@
 
 .project {
   position: relative;
-  width: 80%;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
+  padding: 0 .5rem;
 
-  @media (max-width: #{$bp-small}){
-    width: 100%;
-    padding: 0 .5rem;
+  @media #{$mq-large}{
+    width: 80%;
+  }
+
+  @media #{$mq-xxlarge}{
+    width: 70%;
   }
 
   img {
+      display: block;
       max-width: 100%;
+
+      @media #{$mq-xxlarge}{
+        max-width: 90%;
+        margin: 0 auto;
+      }
     }
 
   &__info {
     display: flex;
+    flex-direction: column;
     position: relative;
-    margin-top: 4rem;
+    padding: 4rem 0;
 
-    h1 {
+    @media #{$mq-large}{
+      flex-direction: row;
+    }
+
+    h1, h2 {
       font-family: $font-text-bold;
-      padding: 1rem 0 5rem 0;
+      padding: 1rem 0 2rem 0;
       text-transform: uppercase;
-      font-size: 5rem;
-      text-align: left;
-      position: absolute;
-
-      @media (max-width: #{$bp-small}){
-        font-size: 1.7rem;
+      text-align: center;
+      font-size: 1.7rem;
+      position: relative;
+      
+      @media #{$mq-medium}{
+        font-size: 2.7rem;
       }
+
+      @media #{$mq-large}{
+        width: 50%;
+        text-align: left;
+        position: absolute;
+        font-size: 3.3rem;
+      }
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      padding: 1rem 0 2rem 0;
+    }
+
+    &--dev {
+      padding: 0 0 4rem 0;
     }
   }
 
   &__desc {
-    width: 60%;
-    margin-top: 10.1rem;
+    width: 95%;
+    margin: 0 auto;
+
+    @media #{$mq-large}{
+      width: 60%;
+      margin: 10.1rem 0 1rem 0;
+      padding-right: 6rem;
+    }
+
+    &--dev {
+      margin-top: 5.1rem;
+
+      @media (max-width: #{$bp-medium}){
+        margin-top: 0.1rem;
+      }
+    }
   }
 
   &__links {
-    width: 25%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    margin: 7rem 0 13rem 0;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    
+    @media #{$mq-medium}{
+      width: 25%;
+    }
+
+    @media #{$mq-large}{
+      width: 45%;
+      margin: 4rem 0 8rem 0;
+    }
+
+    @media #{$mq-xlarge}{
+      width: 30%;
+    }
+
+    @media #{$mq-xxlarge}{
+      width: 25%;
+    }
 
     a {
       @include project-link;
@@ -74,10 +138,24 @@
   }
 
   &__wireframes {
-    width: 40%;
-    margin-top: 10.1rem;
-    background: pink;
-    height: 130px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    
+    @media #{$mq-large}{
+      width: 40%;
+      margin-top: 0;
+    }
+
+    img {
+      max-width: 80%;
+      display: block;
+      margin: 0 auto;
+
+      @media (max-width: #{$bp-small}){
+        max-width: 70%;
+      }
+    }
   }
 }
 
