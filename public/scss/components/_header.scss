@@ -1,29 +1,54 @@
-#logo {
-  width: 18rem;
-  margin: 0 auto;
-  padding-top: 2rem;
+header {
+  #logo {
+    width: 14rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+  
+    @media #{$mq-large}{
+      width: 25rem;
+    }
+    
+    &:hover circle{
+      fill: $turquoise;
+    }
+  
+    &:hover polygon {
+      fill: $violet;
+    }
+  
+    &:hover rect {
+      fill: $gold;
+    }
+  
+    &:hover .bird {
+      fill: $violet;
+    }
+  
+    &:hover .pacman {
+      fill: $baby-blue;
+    }
+  }
 
-  @media #{$mq-large}{
-    width: 25rem;
+  #hola {
+    width: 3rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+
+    @media (max-width: #{$bp-small}){
+      width: 2rem;
+      top: 2.5rem;
+      right: 2.5rem;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+
+    svg polygon:hover {
+      fill: $violet;
+    }
   }
   
-  &:hover circle{
-    fill: $turquoise;
-  }
-
-  &:hover polygon {
-    fill: $violet;
-  }
-
-  &:hover rect {
-    fill: $gold;
-  }
-
-  &:hover .bird {
-    fill: $violet;
-  }
-
-  &:hover .pacman {
-    fill: $baby-blue;
-  }
 }
+
