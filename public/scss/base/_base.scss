@@ -62,10 +62,19 @@ a {
 }
 
 p::selection {
-  
+  background: $gold;
 }
 
-h1::selection {
-  
+h1::selection,
+h2::selection {
+  background: $violet;
+}
+
+a::selection {
+  background: $turquoise;
+}
+
+img::selection {
+  background: $black;
 }
 
