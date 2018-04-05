@@ -110,17 +110,13 @@ main {
 
       &--short {
         top: 7rem;
-
-        @media #{$mq-medium}{
-          top: 6rem;
-        }
       }
 
       &--long {
-        top: 6.8rem;
+        top: 7.6rem;
 
         @media #{$mq-xlarge}{
-          top: 9.4rem;
+          top: 9.5rem;
         }
       }
 
