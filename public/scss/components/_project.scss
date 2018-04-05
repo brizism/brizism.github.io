@@ -84,6 +84,7 @@
     }
 
     &--dev {
+      flex-direction: column;
       padding: 0 0 4rem 0;
     }
   }
@@ -137,6 +138,25 @@
     }
   }
 
+  &__images {
+    width: 60%;
+    padding-top: 5rem;
+
+    @media (max-width: #{$bp-medium}){
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    img {
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+      margin-bottom: 10rem;
+
+      @media (max-width: #{$bp-small}){
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
   &__wireframes {
     width: 95%;
     margin: 0 auto;
@@ -151,6 +171,7 @@
       max-width: 80%;
       display: block;
       margin: 0 auto;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
 
       @media (max-width: #{$bp-small}){
         max-width: 70%;
