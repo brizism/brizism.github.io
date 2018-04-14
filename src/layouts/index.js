@@ -12,6 +12,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    {children()}
   </div>
 )
 
