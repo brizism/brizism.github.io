@@ -13,61 +13,61 @@ const IndexPage = () => (
     <h1>I design & build digital products.</h1>
     <div className="work">
       <div className="work__item">
-          <a href="verbose-barnacle.html">
+          <Link to="/verbose-barnacle/">
             <div className="overlay-color">
               <h2>Verbose Barnacle</h2>
             </div>
-          </a>
+          </Link>
         <div className="work__img work__img--short">
           <img src={verbose} alt="verbose-barnacle-thumbnail"/>
         </div>
       </div>
       <div className="work__item">
-        <a href="toxic-free-engine.html">
+        <Link to="/toxic-free-engine/">
           <div className="overlay-color">
             <h2>Toxic-free-engine</h2>
           </div>
-        </a>
+        </Link>
         <div className="work__img work__img--long">
           <img src={toxic} alt="toxic-free-engine-thumbnail"/>
         </div>
       </div>
       <div className="work__item">
-        <a href="indecision.html">
+        <Link to="/indecision/">
           <div className="overlay-color">
             <h2>Indecision</h2>
           </div>
-        </a>
+        </Link>
         <div className="work__img work__img--long">
           <img src={indecision} alt="indecision-thumbnail"/>
         </div>
       </div>
       <div className="work__item">
-        <a href="number-facts.html">
+        <Link to="/number-facts/">
           <div className="overlay-color">
             <h2>The interesting fact of numbers</h2>
           </div>
-        </a>
+        </Link>
         <div className="work__img work__img--long">
           <img src={numbers} alt="facts-numbers-thumbnail"/>
         </div>
       </div>
       <div className="work__item">
-        <a href="donut-studio.html">
+        <Link to="/donut-studio/">
           <div className="overlay-color">
             <h2>Donut Studio</h2>
           </div>
-        </a>
+        </Link>
         <div className="work__img work__img--long">
           <img src={donut} alt="donut-studio-thumbnail"/>
         </div>
       </div>
       <div className="work__item">
-        <a href="domino-calc.html">
+        <Link to="/domino-calc/">
           <div className="overlay-color">
             <h2>Dominoes Calculator</h2>
           </div>
-        </a>
+        </Link>
         <div className="work__img work__img--long">
           <img src={calculator} alt="dominoes-calculator-thumbnail"/>
         </div>
