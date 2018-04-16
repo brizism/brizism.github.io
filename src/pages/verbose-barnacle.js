@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Nav from '../components/nav'
 import verboseBg from '../img/verbose-barnacle-bg.png'
@@ -8,6 +9,9 @@ import verboseSs2 from '../img/vb2.png'
 
 const VerboseBarnacle = () => (
   <div>
+    <Helmet
+      title={'Verbose Barnacle'}
+    />
     <Nav pathPrev={'/domino-calc/'}
          prevProject={'Dominoes Calculator'}
          pathNext={'/toxic-free-engine/'}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Nav from '../components/nav'
 import toxicBg from '../img/toxic-free-engine-bg.png'
@@ -8,6 +9,9 @@ import toxicSs2 from '../img/tfe2.png'
 
 const ToxicFreeEngine = () => (
   <div>
+    <Helmet
+      title={'Toxic-free-engine'}
+    />
     <Nav pathPrev={'/verbose-barnacle/'}
          prevProject={'Verbose Barnacle'}
          pathNext={'/indecision/'}

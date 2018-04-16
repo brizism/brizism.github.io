@@ -1,10 +1,14 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Nav from '../components/nav'
 import calcBg from '../img/domino-calc-bg.png'
 
 const DominoCalc = () => (
   <div>
+    <Helmet
+      title={'Dominoes Calculator'}
+    />
     <Nav pathPrev={'/donut-studio/'}
          prevProject={'Donut Studio'}
          pathNext={'/verbose-barnacle/'}

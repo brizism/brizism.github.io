@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Nav from '../components/nav'
 import indecisionBg from '../img/indecision-bg.png'
@@ -7,6 +8,9 @@ import indecisionSs2 from '../img/i2.png'
 
 const Indecision = () => (
   <div>
+    <Helmet
+      title={'Indecision'}
+    />
     <Nav pathPrev={'/toxic-free-engine/'}
          prevProject={'Toxic-free-engine'}
          pathNext={'/number-facts/'}

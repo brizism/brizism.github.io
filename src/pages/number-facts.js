@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Nav from '../components/nav'
 import numberBg from '../img/number-facts-bg.png'
@@ -8,6 +9,9 @@ import numberSs2 from '../img/theifon2.png'
 
 const NumberFacts = () => (
   <div>
+    <Helmet
+      title={'The IFON'}
+    />
     <Nav pathPrev={'/indecision/'}
        prevProject={'Indecision'}
        pathNext={'/donut-studio/'}
