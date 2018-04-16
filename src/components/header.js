@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Header = () => (
   <header>
     <div id="logo">
-      <a href="https://briseidamontiel.com/">
+      <Link to="/">
         <svg x="0px" y="0px" viewBox="0 0 422 109.5">
           <circle fill="#D57FFF" cx="25.5" cy="25.5" r="25.5"/>
           <circle fill="#D57FFF" cx="25.5" cy="82.1" r="25.5"/>
@@ -28,7 +28,7 @@ const Header = () => (
           <circle fill="#FFCA00" cx="345.9" cy="82.7" r="25.5"/>
           <polygon fill="#07CCA4" points="371,108.2 422,57.2 422,108.2 "/>
         </svg>
-      </a>
+      </Link>
     </div>
     <div id="hola">
       <svg x="0px" y="0px" viewBox="0 0 22.3 22.3" enableBackground="new 0 0 22.3 22.3">
