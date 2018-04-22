@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Link from 'gatsby-link'
 import verbose from '../img/verbose-barnacle-thumbnail.png'
 import toxic from '../img/toxic-free-engine-thumbnail.png'
