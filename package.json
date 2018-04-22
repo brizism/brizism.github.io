@@ -1,25 +1,34 @@
 {
   "name": "brizism.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Portfolio of Front-End Designer & Developer, Briseida Montiel",
   "scripts": {
-    "start": "browser-sync -w",
-    "compile-sass": "node-sass scss/main.scss css/styles.css -w --source-map true --output-style compressed"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brizism/brizism.github.io.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Briseida Montiel",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/brizism/brizism.github.io/issues"
   },
   "homepage": "https://github.com/brizism/brizism.github.io#readme",
-  "dependencies": {},
+  "dependencies": {
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-google-analytics": "^1.0.29",
+    "gatsby-plugin-manifest": "^1.0.19",
+    "gatsby-plugin-offline": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.25",
+    "react-helmet": "^5.2.0"
+  },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
-    "node-sass": "^4.7.2"
+    "prettier": "^1.11.1"
   }
 }
