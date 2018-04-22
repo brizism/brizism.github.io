@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Header from '../components/header'
 import verbose from '../img/verbose-barnacle-thumbnail.png'
 import toxic from '../img/toxic-free-engine-thumbnail.png'
 import indecision from '../img/indecision-thumbnail.png'
@@ -71,13 +70,6 @@ const IndexPage = () => (
         <div className="work__img work__img--long">
           <img src={calculator} alt="dominoes-calculator-thumbnail"/>
         </div>
-      </div>
-    </div>
-    <div className="modal" id="modal">
-      <div className="modal__close">
-        <svg id="close" x="0px" y="0px" viewBox="0 0 22.3 22.3" enableBackground="new 0 0 22.3 22.3">
-          <polygon fill="#07CCA4" points="0,22.3 22.3,0 22.3,22.3 "/>
-        </svg>
       </div>
     </div>
   </main>
