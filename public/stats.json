@@ -1,0 +1,96 @@
+{
+  "assetsByChunkName": {
+    "path---toxic-free-engine": [
+      "path---toxic-free-engine-a0e39f21c11f6a62c5ab.js",
+      "path---toxic-free-engine-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-number-facts-js": [
+      "component---src-pages-number-facts-js-2560efcd0fa8c14035b2.js",
+      "component---src-pages-number-facts-js-2560efcd0fa8c14035b2.js.map"
+    ],
+    "path---donut-studio": [
+      "path---donut-studio-a0e39f21c11f6a62c5ab.js",
+      "path---donut-studio-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-3a6eda858dbfe95ae289.js",
+      "component---src-pages-index-js-3a6eda858dbfe95ae289.js.map"
+    ],
+    "path---": [
+      "path----5da98de8aa02ff0f85b1.js",
+      "path----5da98de8aa02ff0f85b1.js.map"
+    ],
+    "path---number-facts": [
+      "path---number-facts-a0e39f21c11f6a62c5ab.js",
+      "path---number-facts-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-pages-indecision-js": [
+      "component---src-pages-indecision-js-ba7cad5441839b9c1df8.js",
+      "component---src-pages-indecision-js-ba7cad5441839b9c1df8.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-355b580bcea2448369b8.js",
+      "component---src-layouts-index-js-355b580bcea2448369b8.js.map"
+    ],
+    "path---verbose-barnacle": [
+      "path---verbose-barnacle-a0e39f21c11f6a62c5ab.js",
+      "path---verbose-barnacle-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-donut-studio-js": [
+      "component---src-pages-donut-studio-js-2908c8738703dfdc3eba.js",
+      "component---src-pages-donut-studio-js-2908c8738703dfdc3eba.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-e7b1a14c01424d4ee790.js",
+      "commons-e7b1a14c01424d4ee790.js.map"
+    ],
+    "path---indecision": [
+      "path---indecision-a0e39f21c11f6a62c5ab.js",
+      "path---indecision-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-verbose-barnacle-js": [
+      "component---src-pages-verbose-barnacle-js-d93ff2a8f9883d80cdc6.js",
+      "component---src-pages-verbose-barnacle-js-d93ff2a8f9883d80cdc6.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---domino-calc": [
+      "path---domino-calc-a0e39f21c11f6a62c5ab.js",
+      "path---domino-calc-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-0aeeafb0443b73a7d8eb.js",
+      "app-0aeeafb0443b73a7d8eb.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-domino-calc-js": [
+      "component---src-pages-domino-calc-js-06265c360d8217f5a665.js",
+      "component---src-pages-domino-calc-js-06265c360d8217f5a665.js.map"
+    ],
+    "component---src-pages-toxic-free-engine-js": [
+      "component---src-pages-toxic-free-engine-js-aaa077ece723840489b5.js",
+      "component---src-pages-toxic-free-engine-js-aaa077ece723840489b5.js.map"
+    ]
+  }
+}
