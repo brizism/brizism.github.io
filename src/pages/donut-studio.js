@@ -25,7 +25,7 @@ const DonutStudio = () => (
           <p>Visually led landing page built around Bootstrap and SASS.</p>
           <div className="project__links">
             <a href="https://brizism.github.io/donutStudio/src/" target="_blank">Visit site</a>
-            <a href="https://github.com/brizism/donutStudio" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/brizism/donutStudio" target="_blank"><i className="fa fa-github"></i></a>
           </div>
           <p>In an attempt to get comfortable with CSS frameworks, I designed and coded a simple landing page for a fictional Donut shop. I worked in the way I always do — I made rough sketches on paper and then built on this with more fidelity in Sketch. By keeping the logo super simple and a muted colour palette, it favors the vibrant images to pop creating a balanced harmony with the overall design.</p>
         </div>

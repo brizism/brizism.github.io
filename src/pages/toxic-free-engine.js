@@ -25,7 +25,7 @@ const ToxicFreeEngine = () => (
           <p>I designed and built a web application featuring filtering functionality, that allows users to find cosmetics based on the preferences provided.</p>
           <div className="project__links">
             <a href="https://brizism.github.io/toxic-free.engine/" target="_blank">Visit site</a>
-            <a href="https://github.com/brizism/toxic-free.engine" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/brizism/toxic-free.engine" target="_blank"><i className="fa fa-github"></i></a>
           </div>
           <p>I am a fan of natural products and it seemed like a good idea to create a website that would allow discovering natural makeup brands and products. This will also serve as a way to practice my Javascript skills. I like to design around real data when making sites and am keen to solve the big design problems as early as possible — especially the technical ones. The overall design uses a grid system to create a strong sense of alignment with SVG illustrations, generating a clean, a simple and elegant design that is also effective.</p>
         </div>

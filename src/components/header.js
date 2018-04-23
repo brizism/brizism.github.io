@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Modal from './modal'
 
-// const displayBlock = {
-//   display: 'block'
-// }
-
 class Header extends Component {
   constructor() {
     super();
@@ -16,12 +12,10 @@ class Header extends Component {
   
   openModal = () => {
     this.setState({ display: true })
-    console.log('me cago');
   }
 
   closeModal = () => {
     this.setState({ display: false })
-    console.log('im sleeepy');
   }
   render() {
     return (

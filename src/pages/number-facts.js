@@ -25,7 +25,7 @@ const NumberFacts = () => (
           <p>A fun website that fetches facts about numbers from the NumbersAPI.</p>
           <div className="project__links">
             <a href="http://factsnumbers.bitballoon.com/" target="_blank">Visit site</a>
-            <a href="https://github.com/brizism/number_facts" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/brizism/number_facts" target="_blank"><i className="fa fa-github"></i></a>
           </div>
           <p>There are two ways to retrieve a fact of a number, either user clicks desired number on the grid (also having the ability to shuffle numbers), and/or user enters a year. Using the powerful layout system CSSGrid, grid adapts to any screen size with ease allowing for a flexible and functional design. The overall design follows a polychromatic colour scheme for a minimalistic yet striking design.</p>
         </div>

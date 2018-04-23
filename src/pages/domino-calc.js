@@ -22,7 +22,7 @@ const DominoCalc = () => (
           <p>A calculator design inspired by the boardgame Dominoes.</p>
           <div className="project__links">
             <a href="https://brizism.github.io/domino-calc/" target="_blank">View Calculator</a>
-            <a href="https://github.com/brizism/domino-calc" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/brizism/domino-calc" target="_blank"><i className="fa fa-github"></i></a>
           </div>
           <p>The design follows a flat design approach with solid, vivid colours that give emphasis to the dots that represent the numbers of the calculator. With addition to using a sans-serif type to provide a clean, and cohesive overall look.</p>
         </div>

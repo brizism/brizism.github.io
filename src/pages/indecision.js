@@ -24,7 +24,7 @@ const Indecision = () => (
           <p>Indecision is a simple React.js app to jot down tasks and let the app decide for you which one to undertake. Tasks are persisted in localStorage.</p>
           <div className="project__links">
             <a href="https://brizism.github.io/Indecision-app/public/" target="_blank">Visit site</a>
-            <a href="https://github.com/brizism/Indecision-app" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/brizism/Indecision-app" target="_blank"><i className="fa fa-github"></i></a>
           </div>
           <p>This simple app makes no use of the Create-React-App CLI in an effort to learn and understand the behind the scenes. Overall the app allows you to add tasks and remove them, as well as click a button that fires a random task.</p>
         </div>

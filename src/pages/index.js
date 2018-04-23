@@ -12,7 +12,7 @@ const IndexPage = () => (
     <h1>I design & build digital products.</h1>
     <div className="work">
       <div className="work__item">
-          <Link to="/verbose-barnacle/">
+          <Link to="/verbose-barnacle/"> 
             <div className="overlay-color">
               <h2>Verbose Barnacle</h2>
             </div>

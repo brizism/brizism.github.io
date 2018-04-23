@@ -25,7 +25,7 @@ const VerboseBarnacle = () => (
           <p>Verbose Barnacle is a RESTful API based application that retrieves the definition, synonyms, antonyms and example of words, with the ability to persist data using localStorage.</p>
           <div className="project__links">
             <a href="https://brizism.github.io/verbose-barnacle/" target="_blank">Visit site</a>
-            <a href="https://github.com/brizism/verbose-barnacle" target="_blank"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/brizism/verbose-barnacle" target="_blank"><i className="fa fa-github"></i></a>
           </div>
           <p>The concept is a words search engine that presents an array of results in a minimalistic, organized way - yet positioned with a spatial relationship with one another and using a playful, flat colour palette that makes it very visual. By having a single word on individual cards serves as a way to frame it clearly and succinctly, offering the ability to coherently navigate across different results.</p>
         </div>

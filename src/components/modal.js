@@ -28,10 +28,10 @@ class Modal extends Component {
         <div className="modal__info" id="modal-info">
           <p>Front-end designer & developer living in New York. My true passion is the intersection point between design and development, when something flat and static becomes a real, usable thing. I love what I do and I aspire to craft designs and experiences that can help solve problems and communicate both aesthetically and functionally.</p>
           <div className="modal__social">
-            <a href="https://www.linkedin.com/in/briseidamontiel/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
-            <a href="https://github.com/brizism" target="_blank"><i className="fab fa-github"></i></a>
-            <a href="https://twitter.com/brizism" target="_blank"><i className="fab fa-twitter"></i></a>
-            <Link to="../img/briseida_montiel_resume.pdf" target="_blank"><i className="far fa-file-pdf"></i></Link>
+            <a href="https://www.linkedin.com/in/briseidamontiel/" target="_blank"><i className="fa fa-linkedin"></i></a>
+            <a href="https://github.com/brizism" target="_blank"><i className="fa fa-github"></i></a>
+            <a href="https://twitter.com/brizism" target="_blank"><i className="fa fa-twitter"></i></a>
+            <Link to="../img/briseida_montiel_resume.pdf" target="_blank"><i className="fa fa-file-text-o"></i></Link>
           </div>
         </div>
       </div>
