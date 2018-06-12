@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import resume from '../img/briseida_montiel_resume.pdf'
+import resume from '../img/briseida_montiel_resume_.pdf'
 
 const displayNone = {
   display: 'none'
@@ -31,7 +31,6 @@ class Modal extends Component {
           <div className="modal__social">
             <a href="https://www.linkedin.com/in/briseidamontiel/" target="_blank"><i className="fa fa-linkedin"></i></a>
             <a href="https://github.com/brizism" target="_blank"><i className="fa fa-github"></i></a>
-            <a href="https://twitter.com/brizism" target="_blank"><i className="fa fa-twitter"></i></a>
             <a href={resume} target="_blank"><i className="fa fa-file-text-o"></i></a>
           </div>
         </div>
